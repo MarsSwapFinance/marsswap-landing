@@ -1,6 +1,9 @@
 {
-    "title": "Introduce Your Product Quickly & Effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get Started"
+    "title": "Decentralized exchange",
+    "text": "On MarsSwap, you will be able to buy and sell equity, foreign currency, and commodities 24/7. Yes, even on weekends!\n A key advantage of a decentralized platform is that no entity can halt trading, close, or limit your positions. For example, the MarsSwap protocol would have allowed you to trade GME even when it was restricted in most retail brokers.",
+    "button": {
+      "text": "Go to the WebApp",
+      "href": "/"
+    }
   }
   

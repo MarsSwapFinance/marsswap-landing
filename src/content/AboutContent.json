@@ -1,15 +1,15 @@
 {
-  "title": "Light, Fast & Responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Transparent & Accessible",
+  "text": "MarsSwap smart contracts are open-source, and its code will be verified on BSCScan. The original devs of the protocol have no power to take your funds or change the contracts.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "No imposed migrations",
+      "content": "Decentralized platforms shouldn't be able to change the terms of the contract without your consent. We have no migrator code, and all migrations will be 100% voluntary.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Flash Loans",
+      "content": "Arbitrage opportunities can be very profitable, but they require a large upfront investment. Flash loans obviate upfront capital requirements allowing anyone to profit from these opportunities.",
       "icon": "notes.svg"
     }
   ]

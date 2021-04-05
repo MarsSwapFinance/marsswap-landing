@@ -21,12 +21,12 @@ export const Container = styled.div`
   margin-left: auto;
 `;
 
-export const NavLink = styled.div`
+export const NavLink = styled.a`
   display: inline-block;
   text-align: center;
 `;
 
-export const CustomNavLink = styled.div`
+export const CustomNavLink = styled.a`
   width: 203px;
   display: inline-block;
 
@@ -72,7 +72,7 @@ export const Menu = styled.h5`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1rem;
-  color: #000000;
+  color: rgb(232, 230, 227);
   transition: color 0.2s ease-in;
   margin: 0.25rem 2rem;
 

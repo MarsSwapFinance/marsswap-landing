@@ -26,9 +26,9 @@ const MiddleBlock = ({ title, content, button, t }) => {
                 <Button
                   name="submit"
                   type="submit"
-                  onClick={() => scrollTo("mission")}
+                  onClick={() => window.location = button.href}
                 >
-                  {t(button)}
+                  {t(button.text)}
                 </Button>
               ) : (
                 ""

@@ -31,21 +31,21 @@ const Header = ({ t }) => {
     };
     return (
       <Fragment>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <S.Span>{t("About")}</S.Span>
+        <S.CustomNavLinkSmall href="https://medium.com/marsswap" target="_blank">
+          <S.Span>{t("Blog")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
+        <S.CustomNavLinkSmall href="https://marsswap.gitbook.io/marsswap" target="_blank">
+          <S.Span>{t("Docs")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <S.Span>{t("Product")}</S.Span>
+        <S.CustomNavLinkSmall href="https://t.me/MarsSwap" target="_blank">
+          <S.Span>{t("Telegram")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
         >
           <S.Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{t("WebApp")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
       </Fragment>
@@ -57,7 +57,7 @@ const Header = ({ t }) => {
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" />
+            <img src="/img/marsswap.png" width="200px" height="31px" style={{ marginTop: 10 }}/>
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />

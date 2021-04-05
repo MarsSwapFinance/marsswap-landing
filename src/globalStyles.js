@@ -10,11 +10,14 @@ const Styles = createGlobalStyle`
 
 
     body {
+        border-color: initial;
+        outline-color: initial;
+        background-image: initial;
+        background-color: rgb(24, 26, 27);
         margin:0;
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
         overflow-x: hidden;
     }
 
@@ -29,7 +32,7 @@ const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Ubuntu', sans-serif;
-        color: #0a1f44;
+        color: rgb(207, 203, 197);
         font-size: 2.575rem;
         line-height: 3.0625rem;
       
@@ -39,7 +42,7 @@ const Styles = createGlobalStyle`
     }
 
     p {
-        color: #343D48;
+        color: rgb(193, 187, 179);
         font-size: 1.125rem;
     }
 
@@ -50,7 +53,7 @@ const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: rgb(232, 230, 227);
 
         :hover {
             color: #2e186a;

@@ -14,6 +14,11 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
       behavior: "smooth",
     });
   };
+
+  const redirectTo = (url) => {
+    window.location = url
+  }
+
   return (
     <S.RightBlockContainer>
       <Row type="flex" justify="space-between" align="middle" id={id}>
@@ -31,7 +36,7 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
                         key={id}
                         color={item.color}
                         width="true"
-                        onClick={() => scrollTo("about")}
+                        onClick={() => item.href ? redirectTo(item.href) : scrollTo("about")}
                       >
                         {t(item.title)}
                       </Button>

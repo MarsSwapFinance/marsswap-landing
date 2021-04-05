@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import i18n from "i18next";
 import { withTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
+import { FaGithub, FaMediumM, FaTelegram, FaTwitter } from 'react-icons/fa';
 
 import * as S from "./styles";
 
@@ -31,7 +32,7 @@ const Footer = ({ t }) => {
   return (
     <Fragment>
       <Fade bottom>
-        <S.Footer>
+        {/* <S.Footer>
           <Container>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
@@ -103,7 +104,7 @@ const Footer = ({ t }) => {
               </Col>
             </Row>
           </Container>
-        </S.Footer>
+        </S.Footer> */}
         <S.Extra>
           <Container border="true">
             <Row
@@ -114,35 +115,22 @@ const Footer = ({ t }) => {
             >
               <S.NavLink to="/">
                 <S.LogoContainer>
-                  <SvgIcon
-                    src="logo.svg"
-                    aria-label="homepage"
-                    width="101px"
-                    height="64px"
-                  />
+                  <img src="/img/marsswap.png" width="101px" height="16px"/>
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
-                <SocialLink
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                  src="github.svg"
-                />
-                <SocialLink
-                  href="https://twitter.com/Adrinlolx"
-                  src="twitter.svg"
-                />
-                <SocialLink
-                  href="https://www.linkedin.com/in/lasha-kakabadze/"
-                  src="linkedin.svg"
-                />
-                <SocialLink
-                  href="https://github.com/Adrinlol/"
-                  src="instagram.svg"
-                />
-                <SocialLink
-                  href="https://medium.com/@lashakakabadze/"
-                  src="medium.svg"
-                />
+                <a href="https://github.com/MarsSwapFinance" target="_blank">
+                  <FaGithub size={25}/>
+                </a>
+                <a href="https://twitter.com/MarsSwap" target="_blank">
+                  <FaTwitter size={25}/>
+                </a>
+                <a href="https://t.me/MarsSwap" target="_blank">
+                  <FaTelegram size={25}/>
+                </a>
+                <a href="https://medium.com/marsswap" target="_blank">
+                  <FaMediumM size={25}/>
+                </a>
               </S.FooterContainer>
             </Row>
           </Container>

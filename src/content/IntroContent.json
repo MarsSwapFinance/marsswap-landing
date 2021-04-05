@@ -1,13 +1,15 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Decentralized synthetic assets exchange on BSC",
+  "text": "MarsSwap is a protocol that allows anyone to exchange tokenized assets on Binance Smart Chain. The protocol's farms enable users to gain rewards for staking tokens into liquidity pools, both for Asset-backed and Synthetic Tokens.",
   "button": [
     {
-      "title": "Explore"
+      "title": "White Paper",
+      "href": "https://google.com"
     },
     {
       "title": "Learn More",
-      "color": "#fff"
+      "color": "#fff",
+      "href": "https://medium.com/marsswap"
     }
   ]
 }
