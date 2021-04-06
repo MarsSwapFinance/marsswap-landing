@@ -3,13 +3,13 @@
   "text": "MarsSwap smart contracts are open-source, and its code will be verified on BSCScan. The original devs of the protocol have no power to take your funds or change the contracts.",
   "section": [
     {
-      "title": "No imposed migrations",
-      "content": "Decentralized platforms shouldn't be able to change the terms of the contract without your consent. We have no migrator code, and all migrations will be 100% voluntary.",
+      "title": "Governance Based Migrations",
+      "content": "MarsSwap protocol is governed by MARS token holders. Upgrades and changes to the protocol must be approved before they take effect, ensuring all changes are beneficial for the token holders.",
       "icon": "notes.svg"
     },
     {
       "title": "Flash Loans",
-      "content": "Arbitrage opportunities can be very profitable, but they require a large upfront investment. Flash loans obviate upfront capital requirements allowing anyone to profit from these opportunities.",
+      "content": "Arbitrage opportunities can be very profitable, but they require a large upfront investment. Flash loans obviate upfront capital requirements allowing anyone to profit.",
       "icon": "notes.svg"
     }
   ]

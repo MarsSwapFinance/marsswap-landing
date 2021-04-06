@@ -34,7 +34,7 @@ const Header = ({ t }) => {
         <S.CustomNavLinkSmall href="https://medium.com/marsswap" target="_blank">
           <S.Span>{t("Blog")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall href="https://marsswap.gitbook.io/marsswap" target="_blank">
+        <S.CustomNavLinkSmall href="http://docs.marsswap.finance" target="_blank">
           <S.Span>{t("Docs")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall href="https://t.me/MarsSwap" target="_blank">
@@ -45,7 +45,7 @@ const Header = ({ t }) => {
           onClick={() => scrollTo("contact")}
         >
           <S.Span>
-            <Button>{t("WebApp")}</Button>
+            <Button onClick={() => window.location = 'https://app.marsswap.finance'}>{t("WebApp")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
       </Fragment>
