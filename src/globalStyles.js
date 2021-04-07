@@ -13,7 +13,7 @@ const Styles = createGlobalStyle`
         border-color: initial;
         outline-color: initial;
         background-image: initial;
-        background-color: rgb(24, 26, 27);
+        background-color: #100C18;
         margin:0;
         padding:0;
         border: 0;
@@ -56,7 +56,7 @@ const Styles = createGlobalStyle`
         color: rgb(232, 230, 227);
 
         :hover {
-            color: #2e186a;
+            color: #5d20d1;
         }
     }
     
