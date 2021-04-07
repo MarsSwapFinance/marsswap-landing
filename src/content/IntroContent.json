@@ -3,13 +3,13 @@
   "text": "MarsSwap is a protocol that allows anyone to exchange tokenized assets on Binance Smart Chain. The protocol's farms enable users to gain rewards for staking tokens into liquidity pools, both for Asset-backed and Synthetic Tokens.",
   "button": [
     {
-      "title": "White Paper",
-      "href": "https://google.com"
+      "title": "Whitepaper",
+      "href": "/whitepaper.pdf"
     },
     {
       "title": "Learn More",
       "color": "#fff",
-      "href": "https://medium.com/marsswap"
+      "href": "https://medium.com/marsswap/marsswap-the-first-decentralized-synthetic-assets-exchange-on-binance-smart-chain-bsc-9642e3ed1fb7"
     }
   ]
 }
