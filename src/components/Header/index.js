@@ -37,6 +37,9 @@ const Header = ({ t }) => {
         <S.CustomNavLinkSmall href="http://docs.marsswap.finance" target="_blank">
           <S.Span>{t("Docs")}</S.Span>
         </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall href="https://marsswap.finance/audits/techrate.pdf" target="_blank">
+          <S.Span>{t("Audit")}</S.Span>
+        </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall href="https://t.me/MarsSwap" target="_blank">
           <S.Span>{t("Telegram")}</S.Span>
         </S.CustomNavLinkSmall>
