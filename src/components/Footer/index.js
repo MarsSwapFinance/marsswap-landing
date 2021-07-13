@@ -115,7 +115,7 @@ const Footer = ({ t }) => {
             >
               <S.NavLink to="/">
                 <S.LogoContainer>
-                  <img src="/img/marsswap.png" width="101px" height="16px"/>
+                  <img src="/img/marsswap.png" width="180px" height="45px"/>
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>

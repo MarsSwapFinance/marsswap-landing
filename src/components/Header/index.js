@@ -38,7 +38,10 @@ const Header = ({ t }) => {
           <S.Span>{t("Docs")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall href="https://marsswap.finance/audits/techrate.pdf" target="_blank">
-          <S.Span>{t("Audit")}</S.Span>
+          <S.Span>{t("First Audit")}</S.Span>
+        </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall href="https://marsswap.finance/audits/rdauditors.pdf" target="_blank">
+          <S.Span>{t("Second Audit")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall href="https://t.me/MarsSwap" target="_blank">
           <S.Span>{t("Telegram")}</S.Span>
@@ -60,7 +63,7 @@ const Header = ({ t }) => {
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
-            <img src="/img/marsswap.png" width="200px" height="31px" style={{ marginTop: 10 }}/>
+            <img src="/img/marsswap.png" width="180px" height="45px" style={{ marginTop: 10 }}/>
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />
